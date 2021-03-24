@@ -1,13 +1,13 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
+    const uiName = $("input#name").val();
+    const uiName2 = $("input#name2").val();
 
     event.preventDefault();
 
-    const uiName = $("input#name").val();
-
     $(".name").text(uiName);
-
+    $(".name2").text(uiName2);
+    
     $("#letter").show();
-
   });
 });
