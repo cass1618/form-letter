@@ -3,9 +3,9 @@ $(document).ready(function() {
 
     event.preventDefault();
 
-    const name = $("input#name").val();
+    const uiName = $("input#name").val();
 
-    $("name").text(name);
+    $("name").text(uiName);
 
     $("#letter").show();
 
