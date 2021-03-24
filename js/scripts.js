@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     const uiName = $("input#name").val();
 
-    $("name").text(uiName);
+    $(".name").text(uiName);
 
     $("#letter").show();
 
